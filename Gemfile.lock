@@ -1,0 +1,31 @@
+GIT
+  remote: git://github.com/sinatra/sinatra.git
+  revision: 7a5c499f0e6099137fd1cb4ee20178af2a125d47
+  specs:
+    rack-protection (2.0.5)
+      rack
+    sinatra (2.0.5)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.5)
+      tilt (~> 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    kramdown (1.17.0)
+    liquid (4.0.1)
+    mustermann (1.0.3)
+    rack (2.0.6)
+    tilt (2.0.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kramdown
+  liquid
+  sinatra!
+
+BUNDLED WITH
+   1.17.2
