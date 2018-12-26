@@ -16,6 +16,7 @@ GEM
     kramdown (1.17.0)
     liquid (4.0.1)
     mustermann (1.0.3)
+    puma (3.12.0)
     rack (2.0.6)
     tilt (2.0.9)
 
@@ -25,6 +26,7 @@ PLATFORMS
 DEPENDENCIES
   kramdown
   liquid
+  puma
   sinatra!
 
 BUNDLED WITH
