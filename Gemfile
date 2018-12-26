@@ -4,3 +4,4 @@ gem 'sinatra', :github => 'sinatra/sinatra'
 # other dependencies
 gem 'kramdown'
 gem 'liquid'
+gem 'thin'
