@@ -8,16 +8,44 @@
     <p>Here's a thing for {{ @now }} (seed: {{@seed}}).</p>
     <p>These are the lists:</p>
     <h2>Player 1</h2>
+    <h3>Team 1</h3>
     <ol>
-      {% for t in @list1 %}
+      {% for t in @list1 limit:3 %}
         <li>{{ t }}</li>
       {% endfor %}
     </ol>
+    <h3>Team 2</h3>
+    <ol>
+      {% for t in @list1 limit:3 offset:3 %}
+        <li>{{ t }}</li>
+      {% endfor %}
+    </ol>
+    <h3>Team 3</h3>
+    <ol>
+      {% for t in @list1 limit:3 offset:6 %}
+        <li>{{ t }}</li>
+      {% endfor %}
+    </ol>
+
     <h2>Player 2</h2>
+    <h3>Team 1</h3>
     <ol>
-      {% for t in @list2 %}
+      {% for t in @list2 limit:3 %}
         <li>{{ t }}</li>
       {% endfor %}
     </ol>
+    <h3>Team 2</h3>
+    <ol>
+      {% for t in @list2 limit:3 offset:3 %}
+        <li>{{ t }}</li>
+      {% endfor %}
+    </ol>
+    <h3>Team 3</h3>
+    <ol>
+      {% for t in @list2 limit:3 offset:6 %}
+        <li>{{ t }}</li>
+      {% endfor %}
+    </ol>
+
   </body>
 </html>
