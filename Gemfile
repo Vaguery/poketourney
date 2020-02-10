@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'sinatra', :github => 'sinatra/sinatra'
+ruby '2.6.5'
 
 # other dependencies
 gem 'kramdown'
