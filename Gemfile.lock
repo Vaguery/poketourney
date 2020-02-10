@@ -1,24 +1,28 @@
 GIT
   remote: git://github.com/sinatra/sinatra.git
-  revision: 7a5c499f0e6099137fd1cb4ee20178af2a125d47
+  revision: a4dd24add24f2dd0e7299b9e68e12038138294d3
   specs:
-    rack-protection (2.0.5)
+    rack-protection (2.0.8.1)
       rack
-    sinatra (2.0.5)
+    sinatra (2.0.8.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.5)
+      rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    kramdown (1.17.0)
-    liquid (4.0.1)
-    mustermann (1.0.3)
-    puma (3.12.0)
-    rack (2.0.6)
-    tilt (2.0.9)
+    kramdown (2.1.0)
+    liquid (4.0.3)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.2)
+    puma (4.3.1)
+      nio4r (~> 2.0)
+    rack (2.2.1)
+    ruby2_keywords (0.0.2)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
@@ -26,7 +30,8 @@ PLATFORMS
 DEPENDENCIES
   kramdown
   liquid
-  puma
+  puma (>= 3.12.2)
+  rack (>= 2.0.8)
   sinatra!
 
 BUNDLED WITH
