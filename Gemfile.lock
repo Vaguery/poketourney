@@ -30,7 +30,7 @@ PLATFORMS
 DEPENDENCIES
   kramdown
   liquid
-  puma (>= 3.12.2)
+  puma (>= 4.3.3)
   rack (>= 2.0.8)
   sinatra!
 
