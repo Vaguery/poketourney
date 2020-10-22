@@ -30,7 +30,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  kramdown
+  kramdown (>= 2.3.0)
   liquid
   puma (>= 4.3.3)
   rack (>= 2.2.3)
